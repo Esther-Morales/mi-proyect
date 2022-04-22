@@ -1,0 +1,9 @@
+document.querySelector('.menu-btn').addEventListener('click', () => {
+    document.querySelector('.nav-menu').classList.toggle('show');
+}); // Esto hace que anime el menu una vez qe esta en modo telefono 
+
+ScrollReveal().reveal('.showcase');
+ScrollReveal().reveal('.news-cards', { delay: 500});
+ScrollReveal().reveal('.cards-banner-one', { delay: 500});
+ScrollReveal().reveal('.cards-banner-two', { delay: 500});
+ 
